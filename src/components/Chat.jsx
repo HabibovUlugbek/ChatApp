@@ -55,7 +55,7 @@ function Chat() {
                             </div>
                         ))}
                     </div>
-                    <Grid container direction={'column'} alignItems={'flex-end'} style={{width:'80%'}}> 
+                    <Grid  container direction={'column'} alignItems={'flex-end'} style={{width:'80%'}}> 
                         <TextField value={value} onChange={e => setValue(e.target.value)}  placeholder={'Message'} fullWidth variant={'outlined'} />
                         <Button onClick={sendMessage} variant={'outlined'} style={{background:'blue' , marginTop:5 , color:'white'}}> 
                             Send message
